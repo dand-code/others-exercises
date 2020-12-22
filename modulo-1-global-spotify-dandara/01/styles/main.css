@@ -75,6 +75,7 @@
 .main{
   position: relative;
   top: 40px;
+  align-items: center;
 }
 .premium{
   margin-top: 40px;
@@ -90,6 +91,10 @@ margin-bottom: 30px;
 }
 
 /* ARTICLE */
+.display-flex{
+  display:flex;
+  flex-direction: column;
+}
 .article{
   display: flex;
   justify-content: flex-start;
@@ -101,7 +106,6 @@ margin-bottom: 30px;
   margin-right: 10px;
 
 } 
-
 .content-article{
   text-align: left;
 }
@@ -109,7 +113,39 @@ margin-bottom: 30px;
 /* FOOTER */
 
 .footer{
- 
   margin-top: 40px;
+  height: 90px;
   background-color: black;
+  font-size: 0.6rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-nav{
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 70%;
+  padding-top: 30px;
+}
+.footer-nav a{
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  margin-right: 5px;
+  line-height: 1.5;
+  
+}
+.flag{
+  width: 20px;
+}
+
+.display-footer{
+  display: flex;
+  justify-content: space-between;
+}
+.copy{
+  margin-top: 25px;
+}
+.copy-copy{
+  display: block;
+  margin-top: 3px;
 }
