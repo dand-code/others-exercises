@@ -91,7 +91,7 @@ margin-bottom: 30px;
 }
 
 /* ARTICLE */
-.display-flex{
+.articles-list{
   display:flex;
   flex-direction: column;
 }
@@ -148,4 +148,60 @@ margin-bottom: 30px;
 .copy-copy{
   display: block;
   margin-top: 3px;
+}
+
+@media all and (min-width: 769px){
+  .container{
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+  .menu-nav-icon{
+    display: none;
+  }
+  .menu-nav{
+    display: flex;
+  }
+  .menu-nav-list{
+    display:flex;
+    list-style: none;
+  }
+  .menu-nav-list a{
+    color: white;
+    margin-right: 10px;
+  }
+
+  /* Hero */
+  .hero{
+    background: url(../images/premium_dancer.png) no-repeat top right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .main-title{
+    font-size: 4rem;
+  }
+  .main-sub-title{
+    font-size: 2rem;
+  }
+  .small-hero{
+    font-size: 0.8rem;
+  }
+  .link-plan{
+    margin: 15px 0 15px 5px;
+  }
+  
+  /* Main */
+  .premium-title-span{
+    display: inline;
+  }
+
+  /* Article */
+  .articles-list{
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .article{
+    width: 50%;
+  }
 }
