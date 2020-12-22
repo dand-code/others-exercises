@@ -36,12 +36,6 @@
   color: white;
 }
 
-/* MAIN */
-.main{
-  position: relative;
-  top: 40px;
-}
-
 /* HERO */
 .hero{
   height: 50vh;
@@ -64,10 +58,11 @@
 .small-hero{
   font-size: 0.3rem;
 }
+
 .link-plan{
   color: white;
   display: block;
-  margin: 15px auto;
+  margin: 15px auto 5px;
   width: 160px;
   height: 30px;
   border-radius: 25px;
@@ -75,4 +70,46 @@
   padding-top: 10px;
   background-color: #25b758;
   text-decoration: none;
+}
+/* MAIN */
+.main{
+  position: relative;
+  top: 40px;
+}
+.premium{
+  margin-top: 40px;
+  padding-bottom: 30px;;
+}
+
+.premium-title{
+text-align: center;
+margin-bottom: 30px;
+}
+.premium-title-span{
+  display: block;
+}
+
+/* ARTICLE */
+.article{
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px 0;
+}
+
+.article-icon{
+  width: 70px;
+  margin-right: 10px;
+
+} 
+
+.content-article{
+  text-align: left;
+}
+
+/* FOOTER */
+
+.footer{
+ 
+  margin-top: 40px;
+  background-color: black;
 }
