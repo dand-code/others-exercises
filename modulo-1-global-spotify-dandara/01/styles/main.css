@@ -1,141 +1,78 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 1px solid blue;
+* {
+  margin: 0;
+  padding: 0;
+}
+.container{
+  margin: 0 15px;
 }
 
-
-
-
-/*
-body{
-  height: 100vh;
-}
-*/
-/* UTILIDADES */
-/*
-:root {
-  --color1: #fff;
-  --color2: #000;
-  --color-bg: #60a4f2;
-  --color-buttom: #25b758;
+/* HEADER */
+.header{
+  background-color: black;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  top:0;
+  left:0;
+  z-index: 9999;
 }
 
-.color1{
-  color: var(--color1);
-}
-.color-bg {
-  background-color: var(--color-bg);
-}
-.color-buttom {
-  background-color: var(--color-buttom);
-}
-.container {
-  width: 970px;
-  margin: 0 auto;
-}
-
-.top-and{
-  background-color: var(--color2);
-  height: 60px;
-}
-
-.display-flex{
+.header-display{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 7px;;
 }
 
-.logo {
-  width: 100px;
-  padding-top: 15px;
+.menu-nav{
+  display: none;
 }
 
-.list li {
-  display: inline-block;
-  padding-top: 17px;
+.logo{
+  width: 80px;
 }
 
-.link-list {
-  color: var(--color1);
-  text-decoration: none;
-  padding: 10px;
-  align-items: center;
+.menu-nav-icon{
+  color: white;
 }
 
-span {
-  color: var(--color1);
-}
-*/
-/** SECCION 1 **/
-/*
-.site-border{
- background-color: var(--color-bg);
-}
-.main-section {
-  background:  url(../images/premium_dancer.png) no-repeat top right;
-  height: 400PX;
+/* MAIN */
+.main{
+  position: relative;
+  top: 40px;
 }
 
-.big-font{
-  font-size: 3rem;
-  width: 800px;
-  max-width: 60%;
-  line-height: 1.1;
+/* HERO */
+.hero{
+  height: 50vh;
+  color: white;
+}
+.bg-hero{
+  background-color: #5597e6;
+}
+
+.main-title{
   padding-top: 50px;
- 
+  font-size: 2rem;
 }
-
-.medium-font{
-  font-size: 1.1em;
+.main-sub-title{
+  font-size: 1rem;
   margin-top: 10px;
+  line-height: 1.5;
 }
 
-.small{
-  font-size: 7px;
+.small-hero{
+  font-size: 0.3rem;
 }
-
-.buttom {
-  font-size: 1.2rem;
-  text-decoration: none;
-  text-align: center;
-  padding: 5px;
-  display:block;
-  width: 180px;
-  height: 40px;
+.link-plan{
+  color: white;
+  display: block;
+  margin: 15px auto;
+  width: 160px;
+  height: 30px;
   border-radius: 25px;
-  margin: 80px 0 70px 0;
+  text-align:center;
+  padding-top: 10px;
+  background-color: #25b758;
+  text-decoration: none;
 }
-*/
-/** SECCION 2 **/
-/*
-.sub-title{
-  margin: 50px 0 20px 0;
-  text-align: center;
-  font-size: 1.8rem;
-}
-
-article{
-  display: inline-block;
-  width: calc(25% - 10px);
-  margin-bottom: 40px;
-}
-.text-icon{
-  padding: 55px 0;
-  text-align: center;
-}
-.img-icon{
-  width: 100px;
-  margin: 10px 0;
-}
-*/
-/** FOOTER **/
-/*
-.group{
-  width: 20%;
-}
-
-.flag{
-  width: 20px;
-}
-*/
