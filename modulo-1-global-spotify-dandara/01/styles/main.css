@@ -1,0 +1,137 @@
+/* RESET STYLE */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  height: 100vh;
+}
+
+/* UTILIDADES */
+:root {
+  --color1: #fff;
+  --color2: #000;
+  --color-bg: #60a4f2;
+  --color-buttom: #25b758;
+}
+
+.color1{
+  color: var(--color1);
+}
+.color-bg {
+  background-color: var(--color-bg);
+}
+.color-buttom {
+  background-color: var(--color-buttom);
+}
+.container {
+  width: 970px;
+  margin: 0 auto;
+}
+
+.top-and{
+  background-color: var(--color2);
+  height: 60px;
+}
+
+.display-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  padding-top: 15px;
+}
+
+.list li {
+  display: inline-block;
+  padding-top: 17px;
+}
+
+.link-list {
+  color: var(--color1);
+  text-decoration: none;
+  padding: 10px;
+  align-items: center;
+}
+
+span {
+  color: var(--color1);
+}
+
+/** SECCION 1 **/
+
+.site-border{
+ background-color: var(--color-bg);
+}
+.main-section {
+  background:  url(../images/premium_dancer.png) no-repeat top right;
+  height: 400PX;
+}
+
+.big-font{
+  font-size: 3rem;
+  width: 800px;
+  max-width: 60%;
+  line-height: 1.1;
+  padding-top: 50px;
+ 
+}
+
+.medium-font{
+  font-size: 1.1em;
+  margin-top: 10px;
+}
+
+.small{
+  font-size: 7px;
+}
+
+.buttom {
+  font-size: 1.2rem;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px;
+  display:block;
+  width: 180px;
+  height: 40px;
+  border-radius: 25px;
+  margin: 80px 0 70px 0;
+}
+
+/** SECCION 2 **/
+
+.sub-title{
+  margin: 50px 0 20px 0;
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+article{
+  display: inline-block;
+  width: calc(25% - 10px);
+  margin-bottom: 40px;
+}
+.text-icon{
+  padding: 55px 0;
+  text-align: center;
+}
+.img-icon{
+  width: 100px;
+  margin: 10px 0;
+}
+
+/** FOOTER **/
+
+.group{
+  width: 20%;
+}
+
+.flag{
+  width: 20px;
+}
