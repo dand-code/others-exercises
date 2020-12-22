@@ -1,16 +1,19 @@
-/* RESET STYLE */
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-
+*{
+    margin: 0;
+    padding: 0;
+    border: 1px solid blue;
 }
+
+
+
+
+/*
 body{
   height: 100vh;
 }
-
+*/
 /* UTILIDADES */
+/*
 :root {
   --color1: #fff;
   --color2: #000;
@@ -63,9 +66,9 @@ body{
 span {
   color: var(--color1);
 }
-
+*/
 /** SECCION 1 **/
-
+/*
 .site-border{
  background-color: var(--color-bg);
 }
@@ -103,9 +106,9 @@ span {
   border-radius: 25px;
   margin: 80px 0 70px 0;
 }
-
+*/
 /** SECCION 2 **/
-
+/*
 .sub-title{
   margin: 50px 0 20px 0;
   text-align: center;
@@ -125,9 +128,9 @@ article{
   width: 100px;
   margin: 10px 0;
 }
-
+*/
 /** FOOTER **/
-
+/*
 .group{
   width: 20%;
 }
@@ -135,3 +138,4 @@ article{
 .flag{
   width: 20px;
 }
+*/
